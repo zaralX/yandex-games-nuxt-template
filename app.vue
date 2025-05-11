@@ -21,8 +21,6 @@ onMounted(() => {
 
 <template>
   <div class="min-h-screen w-full">
-    <NuxtLayout>
-      <NuxtPage />
-    </NuxtLayout>
+    Hello world
   </div>
 </template>
