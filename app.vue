@@ -19,9 +19,9 @@ onMounted(() => {
 </script>
 
 <template>
-  <div>
-    <div class="bg-red-500">TAILWIND WORKS</div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
+  <div class="min-h-screen w-full">
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
   </div>
 </template>
